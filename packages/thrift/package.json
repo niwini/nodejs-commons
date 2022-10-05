@@ -1,7 +1,7 @@
 {
   "name": "@niwini/thrift",
   "packageManager": "yarn@3.2.1",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A set of utilitary modules for thrift.",
   "files": [
     "*"
@@ -20,8 +20,8 @@
     "@types/thrift": "^0.10.11"
   },
   "dependencies": {
-    "@niwini/tracer": "^0.0.0",
-    "@niwini/utils": "^0.0.0",
+    "@niwini/tracer": "^0.1.0",
+    "@niwini/utils": "^0.1.0",
     "lodash": "^4.17.21",
     "thrift": "^0.17.0"
   },

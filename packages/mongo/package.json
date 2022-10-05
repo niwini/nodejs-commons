@@ -1,7 +1,7 @@
 {
   "name": "@niwini/mongo",
   "packageManager": "yarn@3.2.1",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A set of utilitary modules for mongo.",
   "files": [
     "*"
@@ -19,8 +19,8 @@
     "@types/lodash": "^4.14.186"
   },
   "dependencies": {
-    "@niwini/tracer": "^0.0.0",
-    "@niwini/utils": "^0.0.0",
+    "@niwini/tracer": "^0.1.0",
+    "@niwini/utils": "^0.1.0",
     "dayjs": "^1.11.5",
     "lodash": "^4.17.21",
     "mongodb": "^4.10.0"

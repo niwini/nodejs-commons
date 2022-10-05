@@ -1,7 +1,7 @@
 {
   "name": "@niwini/utils",
   "packageManager": "yarn@3.2.1",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A set of utilitary modules.",
   "files": [
     "*"

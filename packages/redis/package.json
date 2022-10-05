@@ -1,7 +1,7 @@
 {
   "name": "@niwini/redis",
   "packageManager": "yarn@3.2.1",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A set of utilitary modules for redis.",
   "files": [
     "*"
@@ -20,8 +20,8 @@
     "@types/jsonwebtoken": "^8.5.9"
   },
   "dependencies": {
-    "@niwini/tracer": "^0.0.0",
-    "@niwini/utils": "^0.0.0",
+    "@niwini/tracer": "^0.1.0",
+    "@niwini/utils": "^0.1.0",
     "dayjs": "^1.1.5",
     "ioredis": "^5.2.3",
     "jsonwebtoken": "^8.5.1"
