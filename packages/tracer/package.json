@@ -1,0 +1,43 @@
+{
+  "name": "@niwini/tracer",
+  "packageManager": "yarn@3.2.1",
+  "version": "0.0.0",
+  "description": "A nodejs tracer providing both tracing and logging.",
+  "files": [
+    "*"
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:niwini/nodejs-commons.git",
+  "author": "Nosebit Dev <dev@nosebit.com>",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.186",
+    "@types/lz-string": "^1.3.34"
+  },
+  "dependencies": {
+    "@niwini/utils": "^0.0.0",
+    "@sentry/browser": "^7.14.1",
+    "@sentry/node": "^7.14.1",
+    "@sentry/tracing": "^7.14.1",
+    "chalk": "^5.0.1",
+    "dayjs": "^1.11.5",
+    "jaeger-client": "^3.19.0",
+    "lodash": "^4.17.21",
+    "lz-string": "^1.4.4",
+    "nanoid": "^3.3.4",
+    "pino": "^8.6.1",
+    "pino-abstract-transport": "^1.0.0",
+    "pino-pretty": "^8.1.0",
+    "winston": "^3.8.2",
+    "winston-logstash-transport": "^2.0.0"
+  },
+  "volta": {
+    "node": "16.17.1",
+    "yarn": "1.22.10"
+  }
+}

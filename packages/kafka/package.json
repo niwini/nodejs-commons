@@ -1,0 +1,34 @@
+{
+  "name": "@niwini/kafka",
+  "packageManager": "yarn@3.2.1",
+  "version": "0.0.0",
+  "description": "A set of utilitary modules for kafka.",
+  "files": [
+    "*"
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:niwini/nodejs-commons.git",
+  "author": "Nosebit Dev <dev@nosebit.com>",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.186"
+  },
+  "dependencies": {
+    "@niwini/tracer": "^0.0.0",
+    "@niwini/utils": "^0.0.0",
+    "dayjs": "^1.11.5",
+    "kafkajs": "^2.2.0",
+    "lodash": "^4.17.21",
+    "nanoid": "^3.3.4",
+    "node-rdkafka": "^2.13.0"
+  },
+  "volta": {
+    "node": "16.17.1",
+    "yarn": "1.22.10"
+  }
+}

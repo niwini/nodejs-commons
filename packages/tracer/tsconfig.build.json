@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "."
+  },
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.mjs"
+  ],
+  "include": [
+    "**/*"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "paths": {
+      "@niwini/mongo": [
+        "packages/mongo/lib"
+      ],
+      "@niwini/tracer": [
+        "packages/tracer/lib"
+      ],
+      "@niwini/tracer/lib/*": [
+        "packages/tracer/lib/*"
+      ],
+      "@niwini/utils": [
+        "packages/utils/lib"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "./packages/**/*",
+    "./*.js",
+    "./*.ts",
+    "./.eslintrc.js"
+  ]
+}

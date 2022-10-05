@@ -1,0 +1,32 @@
+{
+  "name": "@niwini/utils",
+  "packageManager": "yarn@3.2.1",
+  "version": "0.0.0",
+  "description": "A set of utilitary modules.",
+  "files": [
+    "*"
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:niwini/nodejs-commons.git",
+  "author": "Nosebit Dev <dev@nosebit.com>",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/deep-diff": "^1.0.1",
+    "@types/lodash": "^4.14.186"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "deep-diff": "^1.0.2",
+    "lodash": "^4.17.21"
+  },
+  "volta": {
+    "node": "16.17.1",
+    "yarn": "1.22.10"
+  }
+}
